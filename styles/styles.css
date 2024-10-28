@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.splash {
+    background-image: url('../assets/images/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vh auto;
+    
+    flex: 1;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    margin-top: 33%;
+    padding: 8px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img {
+    height: 100%;
+    width: auto;
+}
+
+.sign-up {
+    flex: 2;
+}
