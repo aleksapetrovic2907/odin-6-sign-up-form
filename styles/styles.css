@@ -3,6 +3,11 @@
     src: url('../assets/fonts/Norse-Bold.otf');
 }
 
+:root {
+    --grey-background: rgb(249 250 251);
+    --green-color: rgb(89 109 72);
+}
+
 * {
     margin: 0;
     padding: 0;
