@@ -16,6 +16,7 @@
 .main {
     height: 100vh;
     display: flex;
+    background-color: var(--grey-background);
 }
 
 .splash {
