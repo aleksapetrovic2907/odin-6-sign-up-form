@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url('../assets/fonts/Norse-Bold.otf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +36,10 @@
 .logo > img {
     height: 100%;
     width: auto;
+}
+
+.logo > h1 {
+    font-family: "Norse Bold";
 }
 
 .sign-up {
