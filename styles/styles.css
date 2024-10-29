@@ -78,6 +78,10 @@
     background-color: white;
 }
 
+.sign-up h2 {
+    margin-bottom: 16px;
+}
+
 .sign-up .inputs {
     display: flex;
     flex-wrap: wrap;
