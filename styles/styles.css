@@ -70,6 +70,8 @@
 
 .sign-up form {
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .input-wrapper {
