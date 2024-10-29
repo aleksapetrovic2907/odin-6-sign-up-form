@@ -61,8 +61,9 @@
 }
 
 .persuasion-text-container,
-.sign-up > div {
-    padding: 0 24px;
+.sign-up > div,
+.sign-up form {
+    padding-left: var(--padding-left);
 }
 
 .persuasion-text-container {
@@ -77,6 +78,7 @@
 }
 
 .input-wrapper {
+    flex-basis: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
