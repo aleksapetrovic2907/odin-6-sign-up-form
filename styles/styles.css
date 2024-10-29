@@ -14,6 +14,8 @@
 }
 
 .main {
+    --padding-left: 45px;
+
     height: 100vh;
     display: flex;
     background-color: var(--grey-background);
