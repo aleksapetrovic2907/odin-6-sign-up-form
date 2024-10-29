@@ -24,7 +24,7 @@
                 <p>Sign up <em>now</em> to get started.</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
-            <form action="#" method="post">
+            <form action="#" method="post" id="signup-form">
                 <h2>Let's do this!</h2>
                 <div class="inputs">
                     <div class="input-wrapper">
@@ -48,7 +48,7 @@
                     <div class="input-wrapper">
                         <label for="tel">PHONE NUMBER</label>
                         <input type="tel" id="tel" name="tel"
-                            pattern="^(\+?\d{1,3})?[-.\s]?(\(?\d{3}\)?)?[-.\s]?\d{3}[-.\s]?\d{4}$" required>
+                            pattern="^(\+?\d{1,3})?[-.\s]?(\(?\d{3}\)?)?[-.\s]?\d{3}[-.\s]?\d{4}$">
                     </div>
 
                     <div class="input-wrapper">
@@ -65,7 +65,7 @@
                 </div>
             </form>
             <div class="submission-wrapper">
-                <button class="primary-btn">Create Account</button>
+                <button form="signup-form" class="primary-btn">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
