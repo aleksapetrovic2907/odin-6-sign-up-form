@@ -57,3 +57,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.persuasion-text-container,
+.sign-up > div {
+    padding: 0 24px;
+}
