@@ -147,3 +147,9 @@
 .submission-wrapper button {
     margin-bottom: 32px;
 }
+
+.submission-wrapper a {
+    color: var(--green-color);
+    font-weight: 700;
+    text-decoration: none;
+}
