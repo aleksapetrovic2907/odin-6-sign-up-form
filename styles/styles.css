@@ -108,4 +108,7 @@
 
 .input-wrapper label {
     color: rgb(54, 54, 54);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
