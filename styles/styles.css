@@ -70,8 +70,14 @@
 }
 
 .persuasion-text-container {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
+    box-sizing: border-box;
+    padding-bottom: 48px;
+}
+
+.persuasion-text-container p:last-child {
+    padding-top: 24px;
 }
 
 .sign-up form {
