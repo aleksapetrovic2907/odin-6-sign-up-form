@@ -72,8 +72,13 @@
 }
 
 .sign-up form {
+    padding-top: 24px;
+    padding-bottom: 24px;
     padding-right: 16%;
     background-color: white;
+}
+
+.sign-up .inputs {
     display: flex;
     flex-wrap: wrap;
 }
